@@ -9,7 +9,7 @@ def get_img_as_base64(file):
         data = f.read()
     return base64.b64encode(data).decode()
 
-img_base64 = get_img_as_base64("D:\Screenshots\pro.png")
+img_base64 = get_img_as_base64("web.gif")
 
 page_bg_img = f"""
 <style>
